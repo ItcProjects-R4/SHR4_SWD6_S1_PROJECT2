@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Automation Maven Suite" verbose="1">
+    <test name="Cart Test Scenario">
+        <classes>
+            <class name="org.example.CartTests" />
+        </classes>
+    </test>
+</suite>
