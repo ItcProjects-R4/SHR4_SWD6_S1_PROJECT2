@@ -240,34 +240,34 @@ These artifacts were used to manage project timelines, dependencies, testing act
 ## 📸 Project Screenshots
 
 ### Test Plan
-![Test Plan](Screenshots/TestPlan.png)
+![Test Plan](docs/test-plan.png)
 
 ### User Stories
-![User Stories](Screenshots/UserStories.png)
+![User Stories](docs/user-stories.png)
 
 ### Test Cases
-![Test Cases](Screenshots/TestCases.png)
+![Test Cases](docs/test-cases.png)
 
 ### Bug Reports
-![Bug Reports](Screenshots/BugReports.png)
+![Bug Reports](docs/bug-reports.png)
 
 ### Test Summary Report
-![Test Summary Report](Screenshots/TestSummaryReport.png)
+![Test Summary Report](docs/test-summary-report.png)
 
 ### API Testing Using Postman
-![API Testing](Screenshots/PostmanTesting.png)
+![API Testing](docs/postman-testing.png)
 
 ### Automation Testing Using Selenium
-![Automation Testing](Screenshots/AutomationTesting.png)
+![Automation Testing](docs/automation-testing.png)
 
 ### Mobile Testing
-![Mobile Testing](Screenshots/MobileTesting.png)
+![Mobile Testing](docs/mobile-testing.png)
 
 ### Gantt Chart
-![Gantt Chart](Screenshots/GanttChart.png)
+![Gantt Chart](docs/gantt-chart.png)
 
 ### Network Diagram
-![Network Diagram](Screenshots/NetworkDiagram.png)
+![Network Diagram](docs/network-diagram.png)
 
 ---
 
