@@ -260,9 +260,6 @@ These artifacts were used to manage project timelines, dependencies, testing act
 ### Automation Testing Using Selenium
 ![Automation Testing](docs/automation-testing.png)
 
-### Mobile Testing
-![Mobile Testing](docs/mobile-testing.png)
-
 ### Gantt Chart
 ![Gantt Chart](docs/gantt-chart.png)
 
