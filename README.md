@@ -174,16 +174,6 @@ The goal was to ensure user data protection and prevent unauthorized access.
 
 ---
 
-## 📊 Test Summary
-
-| Module | Test Cases | Passed | Failed | Bugs |
-|----------|----------|----------|----------|----------|
-| Register | 275 | 259 | 16 | 16 |
-| Login | 48 | 48 | 0 | 0 |
-| Checkout | 65 | 64 | 1 | 1 |
-| Combo Discount | 45 | 45 | 0 | 0 |
-| Shopping Cart | 23 | 21 | 2 | 2 |
-
 Additional modules were tested and documented in the complete Test Summary Reports.
 
 ---
