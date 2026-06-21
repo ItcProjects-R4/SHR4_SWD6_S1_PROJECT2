@@ -1,71 +1,44 @@
-# QA360 - End-to-End Software Testing Framework
 
 ## 📌 Project Overview
 
-QA360 is a comprehensive Software Testing project conducted on the Practice Software Testing E-Commerce platform.
+Comprehensive Software Testing project conducted on the Practice Software Testing E-Commerce platform.
 
-The project aims to ensure software quality, security, reliability, and the best possible user experience by applying the complete Software Testing Life Cycle (STLC). The project includes Manual Testing, API Testing, Mobile Testing, Security Testing, and Automation Testing.
+The project applies the complete Software Testing Life Cycle (STLC) to ensure software quality, reliability, security, and an excellent user experience across web and mobile platforms.
+
+The testing process covered Manual Testing, API Testing, Mobile Testing, Security Testing, and Automation Testing using industry-standard tools and methodologies.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Ensure the application meets business and user requirements.
-- Detect and report software defects before production release.
-- Improve user experience across web and mobile platforms.
-- Verify application functionality through end-to-end testing.
-- Validate API reliability and data integrity.
-- Reduce security risks by testing vulnerabilities such as SQL Injection.
-- Automate critical business scenarios to improve testing efficiency.
+- Ensure software quality and reliability.
+- Deliver the best possible user experience.
+- Identify and report defects before production release.
+- Validate business requirements and user stories.
+- Verify API functionality and data integrity.
+- Improve application security through vulnerability testing.
+- Automate critical business workflows.
+- Ensure compatibility across multiple devices and operating systems.
 
 ---
 
 ## 💡 Problem Statement
 
-E-Commerce applications contain many interconnected features that directly impact customer satisfaction and business performance. Any defect, security vulnerability, or system failure can lead to poor user experience and financial loss.
+E-Commerce systems contain many business-critical features such as authentication, product management, shopping carts, and payment processing. Any defect or security vulnerability can negatively affect users and business operations.
 
-This project solves that challenge by performing comprehensive testing activities to ensure functionality, security, stability, and compatibility across different devices and operating systems.
-
----
-
-## 🛠 Technologies & Tools Used
-
-### Manual Testing
-- Test Plan
-- User Stories
-- Test Cases
-- Bug Reports
-- Test Summary Reports
-- End-to-End Scenarios
-- RTM
-
-### API Testing
-- Postman
-- REST APIs
-- GET
-- POST
-- PUT
-- DELETE
-
-### Automation Testing
-- Java
-- Selenium WebDriver
-- TestNG
-- Maven
-- Page Object Model (POM)
-- Extent Reports
-
-### Project Management
-- Gantt Chart
-- Network Diagram
-
-### Version Control
-- Git
-- GitHub
+This project addresses these challenges by performing comprehensive testing activities to identify defects, improve user experience, validate functionality, and reduce security risks such as SQL Injection and unauthorized access.
 
 ---
 
-## 👥 System Roles
+## 🏪 System Under Test
+
+### Practice Software Testing
+
+🔗 https://practicesoftwaretesting.com/
+
+**System Type:** E-Commerce Platform
+
+### User Roles
 
 - Customer
 - Admin
@@ -73,47 +46,149 @@ This project solves that challenge by performing comprehensive testing activitie
 
 ---
 
-## 📋 Tested Features
+## 📋 Features Tested
 
-- User Registration
-- User Login
+### Authentication
+
+- Register
+- Login
 - Admin Login
-- Locked Account
 - Forgot Password
+- Locked Account
 - Multi-Factor Authentication (MFA)
-- Country Availability Check
-- Contact Form
+
+### Product Management
+
 - Product Listing
-- Product Detail Page
-- Category Page
-- Shopping Cart
-- Checkout & Payment
+- Product Details
+- Category Management
+- Product Filtering
+
+### Customer Features
+
 - Customer Profile
-- Customer Favorites
-- Customer Messages
-- Customer Invoices
+- Favorites
+- Messages
+- Invoices
+
+### Shopping Features
+
+- Shopping Cart
+- Checkout
+- Payment
+
+### Discounts
+
+- Combo Discount
 - Geolocation Discount
-- Combined Discount
+
+### Administration
+
 - Admin Dashboard
 
+### Additional Features
+
+- Contact Form
+- Country Availability Check
+
 ---
 
-## 📊 Testing Summary
+## 🧪 Testing Types Performed
 
-- Hundreds of Test Cases Executed
+### Manual Testing
+
 - Functional Testing
 - UI Testing
+- Component Testing
 - Integration Testing
-- Mobile Testing
-- API Testing
+- Regression Testing
 - Security Testing
-- Automation Testing
 - End-to-End Testing
-- Defect Tracking and Reporting
+
+### API Testing
+
+Performed using Postman:
+
+- GET Requests
+- POST Requests
+- PUT Requests
+- DELETE Requests
+
+Validation Included:
+
+- Status Codes Validation
+- Response Validation
+- Authentication Testing
+- Authorization Testing
+- Input Validation
+- Response Time Validation
+
+### Mobile Testing
+
+Platforms Tested:
+
+- Android
+- iOS
+
+Activities:
+
+- Functional Testing
+- UI Testing
+- Compatibility Testing
+- Defect Reporting
+
+### Automation Testing
+
+Tools Used:
+
+- Java
+- Selenium WebDriver
+- TestNG
+- Maven
+- Page Object Model (POM)
+- Extent Reports
+
+Automated Scenarios Included:
+
+- Registration
+- Login
+- Shopping Cart
+- Checkout
+- End-to-End Workflows
 
 ---
 
-## 📱 Testing Environment
+## 🔒 Security Testing
+
+Security testing was performed to verify the application's resistance against common vulnerabilities and attacks.
+
+Security validation included:
+
+- SQL Injection Testing
+- Invalid Input Handling
+- Authentication Validation
+- Authorization Validation
+- Session Management Verification
+
+The goal was to ensure user data protection and prevent unauthorized access.
+
+---
+
+## 📊 Test Summary
+
+| Module | Test Cases | Passed | Failed | Bugs |
+|----------|----------|----------|----------|----------|
+| Register | 275 | 259 | 16 | 16 |
+| Login | 48 | 48 | 0 | 0 |
+| Checkout | 65 | 64 | 1 | 1 |
+| Combo Discount | 45 | 45 | 0 | 0 |
+| Shopping Cart | 23 | 21 | 2 | 2 |
+
+Additional modules were tested and documented in the complete Test Summary Reports.
+
+---
+
+## 💻 Testing Environment
 
 ### Devices
 
@@ -128,104 +203,102 @@ This project solves that challenge by performing comprehensive testing activitie
 
 ### Operating Systems
 
-- Windows 10
 - Windows 11 Pro
+- Windows 10
 - Android
 - iOS
 
 ---
 
-## 🚀 How to Run Automation Tests
+## 📅 Project Management
 
-### Prerequisites
+### Planning Tools
 
-- Java JDK 17+
-- Maven
-- Google Chrome
-- ChromeDriver
+- Gantt Chart (8 Weeks)
+- Network Diagram
 
-### Steps
-
-```bash
-git clone https://github.com/your-repository.git
-
-cd project-folder
-
-mvn clean test
-```
-
-### Generate Reports
-
-```bash
-mvn test
-```
-
-After execution, Extent Reports will be generated automatically.
+These artifacts were used to manage project timelines, dependencies, testing activities, and project milestones.
 
 ---
 
-## 🔒 Security Testing
+## 🚀 Tools & Technologies
 
-The project includes security validation scenarios to verify that the application is protected against common vulnerabilities such as:
+### Testing Tools
 
-- SQL Injection
-- Invalid Input Handling
-- Authentication Validation
-- Authorization Validation
-- Session Management Issues
+- Selenium WebDriver
+- Postman
+- TestNG
+- Maven
+- Extent Reports
+
+### Programming Languages
+
+- Java
+
+### Project Management
+
+- Gantt Chart
+- Network Diagram
+
+### Version Control
+
+- Git
+- GitHub
 
 ---
 
 ## 📸 Project Screenshots
 
-### User Stories Distribution
+### Test Plan
+![Test Plan](Screenshots/TestPlan.png)
 
-Add screenshot here:
-
-```text
-docs/user-stories.png
-```
+### User Stories
+![User Stories](Screenshots/UserStories.png)
 
 ### Test Cases
-
-Add screenshot here:
-
-```text
-docs/test-cases.png
-```
+![Test Cases](Screenshots/TestCases.png)
 
 ### Bug Reports
+![Bug Reports](Screenshots/BugReports.png)
 
-Add screenshot here:
+### Test Summary Report
+![Test Summary Report](Screenshots/TestSummaryReport.png)
 
-```text
-docs/bug-reports.png
-```
+### API Testing Using Postman
+![API Testing](Screenshots/PostmanTesting.png)
 
-### API Testing
+### Automation Testing Using Selenium
+![Automation Testing](Screenshots/AutomationTesting.png)
 
-Add screenshot here:
+### Mobile Testing
+![Mobile Testing](Screenshots/MobileTesting.png)
 
-```text
-docs/postman-testing.png
-```
+### Gantt Chart
+![Gantt Chart](Screenshots/GanttChart.png)
 
-### Automation Testing
-
-Add screenshot here:
-
-```text
-docs/automation-testing.png
-```
+### Network Diagram
+![Network Diagram](Screenshots/NetworkDiagram.png)
 
 ---
 
-## 👨‍💻 Team Contribution
+## 👨‍💻 Team
 
-This project was developed as part of the Digital Egypt Pioneers Initiative (DEPI) - Software Testing Track, demonstrating practical experience in software quality assurance, defect management, API testing, mobile testing, and test automation.
+This project was developed as part of the **Digital Egypt Pioneers Initiative (DEPI)** - Software Testing Track.
+
+The project demonstrates practical experience in:
+
+- Software Testing Life Cycle (STLC)
+- Manual Testing
+- API Testing
+- Mobile Testing
+- Automation Testing
+- Security Testing
+- Defect Management
+- Test Documentation
+- Quality Assurance Best Practices
 
 ---
 
 ## 📄 License
 
-This project is for educational and training purposes.
+This project is intended for educational and training purposes only.
