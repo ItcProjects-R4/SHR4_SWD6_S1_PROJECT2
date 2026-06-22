@@ -286,7 +286,8 @@ The project demonstrates practical experience in:
 
 ---
 
-### Supported By:
-![ITC](docs/ITC.png)
+## Supported By
 
-![DEPI](docs/DEPI.png)
+| Information Technology Institute (ITI) | Digital Egypt Pioneers Initiative (DEPI) |
+|:---:|:---:|
+| <img src="docs/ITC.png" width="250"> | <img src="docs/DEPI.png" width="250"> |
