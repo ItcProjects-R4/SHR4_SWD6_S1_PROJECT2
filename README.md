@@ -293,6 +293,7 @@ The project demonstrates practical experience in:
 
 ---
 
-## 📄 License
+### Supported By:
+![ITC](docs/ITC.png)
 
-This project is intended for educational and training purposes only.
+![DEPI](docs/DEPI.png)
