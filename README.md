@@ -22,6 +22,13 @@ The testing process covered Manual Testing, API Testing, Mobile Testing, Securit
 
 ---
 
+### Supported By:
+![ITC](docs/ITC.png)
+
+![DEPI](docs/DEPI.png)
+
+---
+
 ## 💡 Problem Statement
 
 E-Commerce systems contain many business-critical features such as authentication, product management, shopping carts, and payment processing. Any defect or security vulnerability can negatively affect users and business operations.
